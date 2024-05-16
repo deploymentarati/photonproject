@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: net.codejava.UserApiControllerTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.203 s <<< FAILURE! - in net.codejava.UserApiControllerTests
+testUpdateShouldReturn200Ok  Time elapsed: 0.121 s  <<< ERROR!
+jakarta.servlet.ServletException: Request processing failed: java.lang.IllegalArgumentException: The given id must not be null and must match the path variable
+	at net.codejava.UserApiControllerTests.testUpdateShouldReturn200Ok(UserApiControllerTests.java:107)
+Caused by: java.lang.IllegalArgumentException: The given id must not be null and must match the path variable
+	at net.codejava.UserApiControllerTests.testUpdateShouldReturn200Ok(UserApiControllerTests.java:107)
+
